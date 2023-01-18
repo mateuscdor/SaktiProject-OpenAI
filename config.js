@@ -104,7 +104,7 @@ Membuat gambar dari teks`)
             m.reply(`${response.data.choices[0].text}`);
           } catch (err) {
             console.log(err);
-            m.reply("Maaf, sepertinya ada yang error :" + err);
+            m.reply(err);
           }
           break;
         case "buatgambar": case "carigambar": case "ai-buatgambar": case "ai-carigambar": case "image": case "images":
@@ -125,7 +125,7 @@ Membuat gambar dari teks`)
             client.sendImage(from, response.data.data[0].url, text, mek);
           } catch (err) {
             console.log(err);
-            m.reply("Maaf, sepertinya ada yang error :" + err);
+            m.reply(err);
           }
           break;
         default: {
