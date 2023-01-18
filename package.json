@@ -1,6 +1,6 @@
 {
-  "name": "WOpenAI",
-  "version": "1.2.4",
+  "name": "OpenAI",
+  "version": "1.9.6",
   "description": "WhatsApp Bot OpenAI Using Library Baileys",
   "main": "index.js",
   "type": "commonjs",
@@ -18,8 +18,8 @@
     "bot-md",
     "whatsapp-multi-device"
   ],
-  "base": "https://github.com/DikaArdnt/Hisoka-Morou",
-  "author": "Yusril",
+  "base": "https://github.com/sakti-project/OpenAI",
+  "author": "sakti-project",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "4.4.0",
