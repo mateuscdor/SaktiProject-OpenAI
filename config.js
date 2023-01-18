@@ -72,7 +72,7 @@ module.exports = config = async (client, m, chatUpdate, store) => {
       switch (command) {
         case "help":
         case "menu":
-          m.reply(`*Sakti-OpenAI*
+          m.reply(`*SaktiProject-OpenAI*
             
 *(Chat dengan AI)*
 Cmd: ${prefix}tanya 
