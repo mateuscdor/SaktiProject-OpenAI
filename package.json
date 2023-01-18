@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sakti-project/OpenAI.git"
+    "url": "git+https://github.com/sakti-project/SaktiProject-OpenAI/.git"
   },
   "bugs": {
-    "url": "https://github.com/sakti-project/OpenAI/issues"
+    "url": "https://github.com/sakti-project/SaktiProject-OpenAI//issues"
   },
-  "homepage": "https://github.com/sakti-project/OpenAI#readme"
+  "homepage": "https://github.com/sakti-project/SaktiProject-OpenAI/#readme"
 }
