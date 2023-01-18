@@ -1,4 +1,4 @@
-require("http").createServer((_, res) => res.end("Berjalan coy")).listen(8080)
+require("http").createServer((_, res) => res.end("Koneksi Terhubung!")).listen(8080)
 
 const sessionName = 'session'
 const donet = 'https://saweria.co/saktiproject'
