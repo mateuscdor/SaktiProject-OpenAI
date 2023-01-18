@@ -1,5 +1,0 @@
-{
-  "keyopenai": "ISI_APIKEY_OPENAI_DISINI",
-  "autoAI": false, //true = semua chat otomatis dijawab AI, false = chat dijawab AI dengan mengetikan .tanya di awal pertanyaan
-  "donasi": "jangan lupa support kami untuk pengembang :) https://saweria.co/saktiproject"
-}
