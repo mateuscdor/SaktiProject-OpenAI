@@ -1,7 +1,7 @@
 {
-  "name": "Wa-OpenAI",
+  "name": "WOpenAI",
   "version": "1.2.4",
-  "description": "WhatsApp Bot OpenAI Using Lib Baileys Multi Device",
+  "description": "WhatsApp Bot OpenAI Using Library Baileys",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sansekai/Wa-OpenAI.git"
+    "url": "git+https://github.com/sakti-project/OpenAI.git"
   },
   "bugs": {
-    "url": "https://github.com/Sansekai/Wa-OpenAI/issues"
+    "url": "https://github.com/sakti-project/OpenAIissues"
   },
-  "homepage": "https://github.com/Sansekai/Wa-OpenAI#readme"
+  "homepage": "https://github.com/sakti-project/OpenAI#readme"
 }
