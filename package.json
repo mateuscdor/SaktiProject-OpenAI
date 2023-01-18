@@ -19,7 +19,7 @@
     "whatsapp-multi-device"
   ],
   "base": "https://github.com/sakti-project/OpenAI",
-  "author": "sakti-project",
+  "author": "Sakti Project",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "4.4.0",
