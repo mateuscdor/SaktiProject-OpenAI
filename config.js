@@ -79,8 +79,8 @@ Cmd: ${prefix}tanya
 Tanyakan apa saja kepada AI. 
 
 *(Text To Image)*
-Cmd: ${prefix}buatgambar
-Membuat gambar dari teks`)
+Cmd: ${prefix}carigambar
+Mencari gambar dari teks`)
           break;
         case "tanya": case "sakti": 
           try {
@@ -107,10 +107,10 @@ Membuat gambar dari teks`)
             m.reply(err);
           }
           break;
-        case "buatgambar": case "img": case "ai-img": case "image": case "images":
+        case "carigambar": case "img": case "ai-img": case "image": case "images":
           try {
             if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
-            if (!text) return reply(`Membuat gambar dari AI.\n\nContoh:\n${prefix}${command} Hamparan bunga di gurun pasir`);
+            if (!text) return reply(`Mencari gambar dari teks.\n\nContoh:\n${prefix}${command} Bangunan tertinggi di dunia`);
             m.reply("_Mohon tunggu, kami sedang menyiapkan gambar yang anda cari..._");
 			const configuration = new Configuration({
               apiKey: setting.keyopenai,
