@@ -1,12 +1,10 @@
-# OpenAI
+# SaktiProject-OpenAI
 Whatsapp Bot-OpenAI with baileys library
 
-# Wa-OpenAI
-
-***WhatsApp OpenAI Create with NodeJS Using Library [Baileys](https://github.com/adiwajshing/Baileys)***
+***SaktiProject-OpenAI Create with NodeJS Using Library [Baileys](https://github.com/adiwajshing/Baileys)***
 
 ## BACA DULU
-Terdapat 2 fitur yaitu ```ChatGPT(text)``` dan ```DALL-E(Text To Image)``` tipe yaitu <br>Untuk commandnya menggunakan ```/tanya``` dan ```/img```
+Terdapat 2 fitur yaitu ```ChatGPT(text)``` dan ```DALL-E(Text To Image)``` tipe yaitu <br>Untuk commandnya menggunakan ```/tanya``` dan ```/carigambar```
 
 ## Get & Change OpenAI ApiKey
 - Silakan buat apikeynya terlebih dahulu [Disini](https://beta.openai.com/account/api-keys)
@@ -18,8 +16,8 @@ Terdapat 2 fitur yaitu ```ChatGPT(text)``` dan ```DALL-E(Text To Image)``` tipe 
 Install [NodeJS](https://nodejs.org/en/download/)
  dan [Git Bash](https://git-scm.com/downloads) terlebih dahulu
 ```bash
-$ git clone https://github.com/sakti-project/OpenAI
-$ cd OpenAI
+$ git clone https://github.com/sakti-project/SaktiProject-OpenAI
+$ cd SaktiProject-OpenAI
 $ npm install
 $ node index.js
 ```
@@ -29,8 +27,8 @@ Silakan install manual ```node_modules``` terlebih dahulu, karena di termux saat
 <br>Link ```node_modules```: [Klik Disini](https://drive.google.com/file/d/1gKGjseRirX6mQ5LOFULpmnDs7q3Svm8y/view?usp=sharing)
 ```bash
 $ pkg install git nodejs -y
-$ git clone https://github.com/sakti-project/OpenAI
-$ cd Wa-OpenAI
+$ git clone https://github.com/sakti-project/SaktiProject-OpenAI
+$ cd SaktiProject-OpenAI
 ```
 Sesudah menginstall file node_modules, silahkan extract file ```node_modules.zip``` dan taruh di folder OpenAI.
 
@@ -43,6 +41,6 @@ $ node index.js
 <a href="https://saweria.co/saktiproject" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="Donate For Sakti Project" height="41" width="174"></a>
 
 ## License
-[MIT License](https://github.com/sakti-project/OpenAI/blob/main/LICENSE)
+[MIT License](https://github.com/sakti-project/SaktiProject-OpenAI/blob/main/LICENSE)
 
 Copyright (c) 2022 Sakti Project
