@@ -82,7 +82,7 @@ Tanyakan apa saja kepada AI.
 Cmd: ${prefix}img
 Membuat gambar dari teks`)
           break;
-        case "ai": case "openai": 
+        case "tanya": case "sakti": 
           try {
             if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
             if (!text) return reply(`Chat dengan AI.\n\nContoh:\n${prefix}${command} Siapakah penemu dari bola lampu`);
@@ -125,7 +125,7 @@ Membuat gambar dari teks`)
             client.sendImage(from, response.data.data[0].url, text, mek);
           } catch (err) {
             console.log(err);
-            m.reply("err);
+            m.reply(err);
           }
           break;
         default: {
