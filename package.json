@@ -18,7 +18,7 @@
     "bot-md",
     "whatsapp-multi-device"
   ],
-  "base": "https://github.com/sakti-project/OpenAI",
+  "base": "https://github.com/sakti-project",
   "author": "Sakti Project",
   "license": "MIT",
   "dependencies": {
@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sakti-project/OpenAI.git"
+    "url": "https://github.com/sakti-project/OpenAI.git"
   },
   "bugs": {
-    "url": "https://github.com/sakti-project/OpenAI#issues"
+    "url": "https://github.com/sakti-project/OpenAI/issues"
   },
-  "homepage": "https://github.com/sakti-project/OpenAI#readme"
+  "homepage": "https://github.com/sakti-project"
 }
