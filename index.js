@@ -1,4 +1,4 @@
-const sessionName = "SaktiProject";
+const sessionName = "session";
 const donet = "https://saweria.co/saktiproject";
 const owner = ["6285162730003"];
 const {
@@ -258,7 +258,7 @@ async function startHisoka() {
     if (connection === "close") {
       let reason = new Boom(lastDisconnect?.error)?.output.statusCode;
       if (reason === DisconnectReason.badSession) {
-        console.log(`Bad Session File, Please Delete Session and Scan Again`);
+        console.log(`Bad Session File, Please Delete session.json and Scan Again`);
         process.exit();
       } else if (reason === DisconnectReason.connectionClosed) {
         console.log("Connection closed, reconnecting....");
@@ -270,7 +270,7 @@ async function startHisoka() {
         console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First");
         process.exit();
       } else if (reason === DisconnectReason.loggedOut) {
-        console.log(`Device Logged Out, Please Delete Session file SaktiProject.json and Scan Again.`);
+        console.log(`Device Logged Out, Please Delete Session file session.json and Scan Again.`);
         process.exit();
       } else if (reason === DisconnectReason.restartRequired) {
         console.log("Restart Required, Restarting...");
