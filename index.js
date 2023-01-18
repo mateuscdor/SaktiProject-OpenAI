@@ -285,7 +285,7 @@ async function startHisoka() {
     } else if (connection === "open") {
       console.log(color("Berhasil terhubung ke server", "green"));
       console.log(color("Donate for creator https://saweria.co/saktiproject", "yellow"));
-      console.log(color("Type /menu to see menu"));
+      console.log(color("ketik .menu untuk melihat semua fitur"));
       client.sendMessage(owner + "@s.whatsapp.net", { text: `Berhasil terhubung ke server!\n\njangan lupa support ya :)\n${donet}` });
     }
     // console.log('Connected...', update)
